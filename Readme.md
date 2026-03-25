@@ -1,4 +1,4 @@
-# Dynamic Object Tracking: Rolling Tire
+# Dynamic Object Tracking
 
 ## 1. What is this Project?
 This project is a Computer Vision tracking script built with Python and OpenCV. It is designed to isolate and track a rolling tire in a highly dynamic video environment. 
