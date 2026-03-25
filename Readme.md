@@ -6,7 +6,6 @@ This project is a Computer Vision tracking script built with Python and OpenCV. 
 The core tracking engine utilizes the **CSRT (Discriminative Correlation Filter with Channel and Spatial Reliability) Tracker**, which provides high accuracy for objects undergoing significant scaling and rotation. To handle complex edge cases—like heavy shadow blending, occlusion, and rapid camera panning—the script features a custom-built morphological fallback scanner that automatically re-acquires the target if the primary tracker fails.
 
 ## 2. Environment Setup
-To avoid dependency conflicts, it is highly recommended to run this project inside an isolated Python virtual environment.
 
 **Create the virtual environment:**
 ```bash
@@ -18,8 +17,8 @@ python3 -m venv venv
 ```
 # Activate the virtual environment:
 
-# For Windows
 ```bash
+# For Windows
 venv\Scripts\activate
 
 # For macOS/Linux
@@ -31,7 +30,7 @@ Once your virtual environment is active, install the necessary packages using th
 pip install -r requirements.txt
 ```
 ## 4. How to Run the Code
-1. Ensure the source video (videoplayback_264.mp4) is located in the root directory alongside auto_object_tracker.py.
+1. Ensure the source video is located in the root directory alongside auto_object_tracker.py.
 
 2. Run the tracker script from your terminal:
 
